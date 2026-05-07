@@ -1,0 +1,82 @@
+{
+  "restaurant": {
+    "name": "Himalayan Spice & Italian Fusion",
+    "tagline": "Where the Alps meet the Himalayas",
+    "address": "123 Fusion Street, Kathmandu 44600",
+    "phone": "+977-1-4567890",
+    "hours": "11:00 AM - 10:00 PM (Daily)",
+    "policies": {
+      "reservations": "Call or walk-in. Advance booking recommended for weekends.",
+      "dietary": "Vegetarian, vegan, and gluten-free options available on request.",
+      "payment": "Cash, card, and eSewa/Khalti accepted."
+    }
+  },
+  "menu": {
+    "Nepali Starters (नेपाली खाजा)": [
+      {"id": 1,  "name": "Chicken Momo",         "price": 280, "currency": "NPR", "description": "Steamed dumplings stuffed with spiced minced chicken, served with tomato-sesame achar.", "vegetarian": false, "spicy": true},
+      {"id": 2,  "name": "Veg Momo",             "price": 220, "currency": "NPR", "description": "Steamed dumplings filled with cabbage, carrot, and paneer, served with mint chutney.", "vegetarian": true,  "spicy": false},
+      {"id": 3,  "name": "Buff Momo",            "price": 260, "currency": "NPR", "description": "Steamed dumplings with seasoned water buffalo mince and ginger-garlic, Newari style.", "vegetarian": false, "spicy": true},
+      {"id": 4,  "name": "Fried Momo",           "price": 300, "currency": "NPR", "description": "Crispy deep-fried momos with spiced chicken filling, served with sadheko achar.", "vegetarian": false, "spicy": true},
+      {"id": 5,  "name": "Chhoila",              "price": 320, "currency": "NPR", "description": "Traditional Newari grilled buff marinated in mustard oil, spices, and timur pepper.", "vegetarian": false, "spicy": true},
+      {"id": 6,  "name": "Aloo Tama",            "price": 240, "currency": "NPR", "description": "Tangy bamboo shoot and potato curry with black-eyed peas, a Newari classic.", "vegetarian": true,  "spicy": false},
+      {"id": 7,  "name": "Chatamari",            "price": 260, "currency": "NPR", "description": "Newari rice crepe topped with minced meat, egg, and spices — the Nepali pizza.", "vegetarian": false, "spicy": false},
+      {"id": 8,  "name": "Sekuwa",               "price": 380, "currency": "NPR", "description": "Charcoal-grilled skewers of marinated chicken with jimbu and timur spices.", "vegetarian": false, "spicy": true},
+      {"id": 9,  "name": "Pani Puri",            "price": 160, "currency": "NPR", "description": "Crispy hollow puris filled with spiced chickpea and tangy tamarind water. 6 pieces.", "vegetarian": true,  "spicy": true},
+      {"id": 10, "name": "Samosa (2 pcs)",       "price": 120, "currency": "NPR", "description": "Flaky pastry stuffed with spiced potatoes and peas, served with green chutney.", "vegetarian": true,  "spicy": false}
+    ],
+    "Indian Starters": [
+      {"id": 11, "name": "Chicken Tikka",        "price": 420, "currency": "NPR", "description": "Boneless chicken marinated in yogurt and spices, tandoor-grilled and served with mint raita.", "vegetarian": false, "spicy": true},
+      {"id": 12, "name": "Paneer Tikka",         "price": 380, "currency": "NPR", "description": "Cubes of cottage cheese marinated in spiced yogurt and grilled in tandoor with peppers.", "vegetarian": true,  "spicy": false},
+      {"id": 13, "name": "Seekh Kebab",          "price": 440, "currency": "NPR", "description": "Minced lamb and beef mixed with herbs, skewered and grilled, served with onion rings.", "vegetarian": false, "spicy": true},
+      {"id": 14, "name": "Onion Bhaji",          "price": 200, "currency": "NPR", "description": "Crispy fried onion fritters with green chilli and coriander, served with tamarind chutney.", "vegetarian": true,  "spicy": true},
+      {"id": 15, "name": "Papdi Chaat",          "price": 220, "currency": "NPR", "description": "Crispy wafers topped with chickpeas, yogurt, chutneys, and sev — a street food classic.", "vegetarian": true,  "spicy": true}
+    ],
+    "Nepali Main Course (मुख्य खाना)": [
+      {"id": 16, "name": "Dal Bhat Set",         "price": 380, "currency": "NPR", "description": "Traditional Nepali thali with steamed rice, lentil soup, vegetable curry, spinach, papad, and pickle.", "vegetarian": true,  "spicy": false},
+      {"id": 17, "name": "Chicken Dal Bhat",     "price": 460, "currency": "NPR", "description": "Dal Bhat set with a generous portion of spiced chicken curry on the side.", "vegetarian": false, "spicy": true},
+      {"id": 18, "name": "Mutton Thali",         "price": 520, "currency": "NPR", "description": "Full thali set with slow-cooked mutton curry, rice, dal, achaar, and seasonal greens.", "vegetarian": false, "spicy": true},
+      {"id": 19, "name": "Dhido with Gundruk",   "price": 300, "currency": "NPR", "description": "Traditional buckwheat porridge served with fermented leafy greens and nettle soup.", "vegetarian": true,  "spicy": false},
+      {"id": 20, "name": "Kwati Soup",           "price": 260, "currency": "NPR", "description": "Nine-bean sprouted soup with ginger, turmeric, and Nepali spices — a festival favourite.", "vegetarian": true,  "spicy": false},
+      {"id": 21, "name": "Thukpa",               "price": 280, "currency": "NPR", "description": "Tibetan-style noodle soup with chicken, vegetables, and warming spices. Mountain comfort food.", "vegetarian": false, "spicy": false},
+      {"id": 22, "name": "Veg Thukpa",           "price": 240, "currency": "NPR", "description": "Hearty vegetable noodle soup with tofu, bok choy, and Himalayan spices.", "vegetarian": true,  "spicy": false},
+      {"id": 23, "name": "Sel Roti with Tarkari","price": 220, "currency": "NPR", "description": "Sweet crispy ring-shaped rice bread served with potato-pea curry.", "vegetarian": true,  "spicy": false}
+    ],
+    "Indian Main Course": [
+      {"id": 24, "name": "Butter Chicken",       "price": 480, "currency": "NPR", "description": "Tender chicken in a rich, creamy tomato-butter sauce with fenugreek. Served with naan.", "vegetarian": false, "spicy": false},
+      {"id": 25, "name": "Palak Paneer",         "price": 400, "currency": "NPR", "description": "Cottage cheese cubes in a smooth spiced spinach gravy. A vegetarian favourite.", "vegetarian": true,  "spicy": false},
+      {"id": 26, "name": "Lamb Rogan Josh",      "price": 560, "currency": "NPR", "description": "Slow-braised Kashmiri lamb in aromatic whole spices, dried chillies, and saffron.", "vegetarian": false, "spicy": true},
+      {"id": 27, "name": "Chana Masala",         "price": 340, "currency": "NPR", "description": "Hearty chickpea curry with tomatoes, onions, and whole spices. Served with bhatura.", "vegetarian": true,  "spicy": true},
+      {"id": 28, "name": "Chicken Biryani",      "price": 500, "currency": "NPR", "description": "Fragrant basmati rice layered with spiced chicken, caramelised onions, and saffron. Served with raita.", "vegetarian": false, "spicy": true},
+      {"id": 29, "name": "Veg Biryani",          "price": 420, "currency": "NPR", "description": "Aromatic basmati rice with seasonal vegetables, nuts, and whole spices. Served with raita.", "vegetarian": true,  "spicy": false},
+      {"id": 30, "name": "Mutton Korma",         "price": 580, "currency": "NPR", "description": "Slow-cooked mutton in rich almond-yogurt gravy with rose water and cardamom.", "vegetarian": false, "spicy": false},
+      {"id": 31, "name": "Dal Makhani",          "price": 360, "currency": "NPR", "description": "Black lentils slow-cooked overnight with butter, cream, and tomatoes. A Punjabi classic.", "vegetarian": true,  "spicy": false},
+      {"id": 32, "name": "Fish Curry",           "price": 520, "currency": "NPR", "description": "Fresh river fish cooked in a tangy mustard-coconut curry with curry leaves.", "vegetarian": false, "spicy": true},
+      {"id": 33, "name": "Aloo Gobi",            "price": 320, "currency": "NPR", "description": "Dry-spiced cauliflower and potato with cumin, turmeric, and coriander.", "vegetarian": true,  "spicy": false}
+    ],
+    "Breads & Rice": [
+      {"id": 34, "name": "Butter Naan",          "price": 120, "currency": "NPR", "description": "Soft leavened bread brushed with butter, baked in tandoor.", "vegetarian": true,  "spicy": false},
+      {"id": 35, "name": "Garlic Naan",          "price": 140, "currency": "NPR", "description": "Tandoor-baked naan topped with minced garlic and coriander.", "vegetarian": true,  "spicy": false},
+      {"id": 36, "name": "Paratha",              "price": 100, "currency": "NPR", "description": "Whole wheat layered flatbread pan-fried with ghee.", "vegetarian": true,  "spicy": false},
+      {"id": 37, "name": "Steamed Rice",         "price": 80,  "currency": "NPR", "description": "Plain steamed basmati rice.", "vegetarian": true,  "spicy": false},
+      {"id": 38, "name": "Jeera Rice",           "price": 140, "currency": "NPR", "description": "Basmati rice tempered with cumin seeds and ghee.", "vegetarian": true,  "spicy": false}
+    ],
+    "Desserts (मिठाई)": [
+      {"id": 39, "name": "Gulab Jamun",          "price": 180, "currency": "NPR", "description": "Soft milk-solid dumplings soaked in rose-cardamom sugar syrup. Served warm. 3 pieces.", "vegetarian": true,  "spicy": false},
+      {"id": 40, "name": "Kheer",                "price": 160, "currency": "NPR", "description": "Creamy rice pudding with cardamom, saffron, and garnished with pistachios and almonds.", "vegetarian": true,  "spicy": false},
+      {"id": 41, "name": "Juju Dhau",            "price": 200, "currency": "NPR", "description": "Famous Bhaktapur king curd — thick, sweet, and creamy set yogurt served in clay pots.", "vegetarian": true,  "spicy": false},
+      {"id": 42, "name": "Malpua",               "price": 180, "currency": "NPR", "description": "Sweet deep-fried pancakes soaked in sugar syrup, topped with rabri cream.", "vegetarian": true,  "spicy": false},
+      {"id": 43, "name": "Rasgulla",             "price": 160, "currency": "NPR", "description": "Soft spongy cottage cheese balls in light sugar syrup. 3 pieces.", "vegetarian": true,  "spicy": false},
+      {"id": 44, "name": "Halwa",                "price": 150, "currency": "NPR", "description": "Semolina pudding cooked in ghee with sugar, cardamom, and garnished with cashews.", "vegetarian": true,  "spicy": false}
+    ],
+    "Beverages (पेय पदार्थ)": [
+      {"id": 45, "name": "Masala Chai",          "price": 80,  "currency": "NPR", "description": "Traditional spiced milk tea with ginger, cardamom, cinnamon, and cloves.", "vegetarian": true,  "spicy": false},
+      {"id": 46, "name": "Lassi (Sweet)",        "price": 140, "currency": "NPR", "description": "Chilled blended yogurt drink with sugar and rose water. Topped with cream.", "vegetarian": true,  "spicy": false},
+      {"id": 47, "name": "Lassi (Mango)",        "price": 160, "currency": "NPR", "description": "Creamy blended yogurt with Alphonso mango pulp and a pinch of cardamom.", "vegetarian": true,  "spicy": false},
+      {"id": 48, "name": "Nimbu Pani",           "price": 100, "currency": "NPR", "description": "Fresh lemonade with black salt, cumin, and mint. Still or sparkling.", "vegetarian": true,  "spicy": false},
+      {"id": 49, "name": "Tongba",               "price": 220, "currency": "NPR", "description": "Traditional Limbu millet beer served warm in a bamboo vessel with a bamboo straw.", "vegetarian": true,  "spicy": false},
+      {"id": 50, "name": "Nepali Black Tea",     "price": 60,  "currency": "NPR", "description": "Premium Ilam first-flush black tea, served with honey on the side.", "vegetarian": true,  "spicy": false},
+      {"id": 51, "name": "Mango Lassi",          "price": 160, "currency": "NPR", "description": "Thick blended drink with fresh mango, yogurt, and a hint of saffron.", "vegetarian": true,  "spicy": false},
+      {"id": 52, "name": "Cold Coffee",          "price": 180, "currency": "NPR", "description": "Chilled blended coffee with milk and ice cream. Can be made vegan on request.", "vegetarian": true,  "spicy": false}
+    ]
+  }
+}
