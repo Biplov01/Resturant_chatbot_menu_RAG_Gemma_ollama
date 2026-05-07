@@ -1,19 +1,44 @@
-# :earth_americas: GDP dashboard template
+# 🍛 Himalayan Spice Restaurant Chatbot
 
-A simple Streamlit app showing the GDP of different countries in the world.
+An AI-powered Nepali restaurant menu chatbot built using:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+- Streamlit
+- LangChain
+- FAISS Vector Database
+- Sentence Transformers
+- Ollama LLM (Gemma 2B)
 
-### How to run it on your own machine
+The chatbot uses Retrieval-Augmented Generation (RAG) to answer customer questions about:
 
-1. Install the requirements
+- 🍽️ Menu items
+- 💰 Prices
+- 🌶️ Spicy dishes
+- 🥦 Vegetarian & dietary options
+- 📅 Reservations
+- 🕒 Opening hours
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+---
 
-2. Run the app
+# 🚀 Features
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- AI-powered restaurant assistant
+- Semantic search using FAISS
+- Local LLM inference with Ollama
+- Interactive Streamlit chat UI
+- Menu recommendation support
+- Dietary and spicy food filtering
+- Source retrieval display
+- Fast and lightweight setup
+
+---
+
+# 📂 Project Structure
+
+```bash
+project/
+│
+├── app.py
+├── menu.json
+├── requirements.txt
+├── README.md
+└── faiss_restaurant_index/
